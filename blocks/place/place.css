@@ -1,0 +1,16 @@
+.place {
+	margin: 0;
+	padding: 0 0 80px;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(min-content, max-content));
+	grid-template-rows: repeat(2, minmax(min-content, max-content));
+	row-gap: 48px;
+	column-gap: 32px;
+	grid-template-areas: 
+	"place__title place__website"
+	"place__image place__paragraph"
+}
+
+.place:last-child {
+	padding: 0;
+}

@@ -1,0 +1,7 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	width: calc(100% - (48px*2));
+	padding: 92px 0 24px;
+}
