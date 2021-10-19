@@ -1,12 +1,15 @@
 .cover {
-	padding: 0;
-	position: relative;
-	background-size: cover;
-	background-image: url(../../images/cover-trains.jpg);
+  padding: 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../images/cover-trains.jpg);
+  display: flex;
+  align-items: center;  
 }
 
 .cover::after {
-	content: "";
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -17,38 +20,38 @@
 }
 
 .cover:hover::after {
-	opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 320px) {
-	.cover{
-		min-width: 320px;
-		min-height: 300px;
-		margin: 66px 0 0;
+  .cover{
+    min-width: 320px;
+    min-height: 200px;
+    margin: 66px 0 0;
 
-	}
+  }
 }
-	
-	@media screen and (min-width: 768px) {
-	.cover{
-		min-width: 768px;
-		min-height: 480px;
-		margin: 90px 0 0;
-	}
+  
+  @media screen and (min-width: 768px) {
+  .cover{
+    min-width: 768px;
+    min-height: 480px;
+    margin: 90px 0 0;
+  }
 }
-	
-	@media screen and (min-width: 1024px) {
-	.cover{
-		min-width: 1024px;
-		min-height: 640px;
-		margin: 92px 0 0;
-	}
+  
+  @media screen and (min-width: 1024px) {
+  .cover{
+    min-width: 1024px;
+    min-height: 640px;
+    margin: 92px 0 0;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-	.cover{
-		min-width: 1184px;
-		min-height: 740px;
-		margin: 92px 48px 0;
-	}
+  .cover{
+    min-width: 1184px;
+    min-height: 740px;
+    margin: 92px 48px 0;
+  }
 }
