@@ -16,6 +16,11 @@
     max-width: 768px;
   }
 }
+@media screen and (min-width: 950px) {
+  .lead{
+    max-width: 950px;
+  }
+}
   
   @media screen and (min-width: 1024px) {
   .lead{
