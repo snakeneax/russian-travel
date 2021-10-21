@@ -2,6 +2,7 @@
   display: grid;
   margin: 0;
   justify-items: center;
+  justify-content: center;
 }
 
 

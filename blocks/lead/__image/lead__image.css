@@ -1,17 +1,25 @@
 .lead__image {
  max-width: 100%;
- padding: 40px 0 0;
+ margin: 40px 0 0;
 }
 
 @media screen and (min-width: 768px) {
   .lead__image {
-    padding: 56px 0 0;
+    margin: 56px 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    max-width: 928px;
+    margin: 56px auto 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__image {
-    padding: 64px 0 0;
+    max-width: 984px;
+    margin: 64px auto 0;
   }
 }
 
